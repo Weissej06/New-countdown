@@ -1,0 +1,44 @@
+<!--Eissej Wilson -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <Title>Blast Off Countdown</Title>
+   <!--"src=" is showing that the script is in the "Countdown (2).js" file -->
+    <script src="Countdown (2).js"></script>
+    
+    <!--This links my css file to this html by showing it as a reference "href", relationship "stylesheet", and type "text/css"-->
+    <link href="blast.css" rel="stylesheet" type="text/css" />
+   
+    <!--This is where my title for the webpage goes-->
+    <title>
+        count Down
+
+    </title>
+</head>
+
+<body>
+    <h1 style="color: rgb(255, 255, 255);">Blast Off!</h1> 
+    <p style="color: rgb(255, 255, 255);">This is a 10 second countdown! You have everything you need for blastoff including sound checks, event checks, and the blast button when you're ready</p>
+    <h2 style="color: rgb(255, 255, 255);">The Countdown</h2>
+<!-- the style is what changes all of the font colors for all of the writings displayed on the screen-->
+<!--the button is functioned by "Count()" in the js file (Countdown (2).js.-->
+<!--The id is what the js file looks for to identify what button activates the function and the class is used in the css file for customization-->
+    <button style="color:rgb(0, 0, 0)" onclick="Count();" class="BlastButton"> Begin Blastoff </button>
+  
+
+    
+    <p style="color: rgb(255, 0, 0)"  id="CountdownDisplay">10</p>
+
+
+    <button onclick="start()" class="startButton" id="greenlight" disabled=true>Start</button>  
+
+    
+<button onclick="stop()" class="stopButton" id="redlight" >Stop</button>
+<br> <!-- the <br> is a line break that seperates things making them be a whole line apart!-->
+<button class="Soundbutton" onclick="playTestLaunch()">Sounds Test</button>
+</body>
+</html>
+<!--This assignment challenged me, made me think, pay attention, and most importantly learn a new skiil even practicing ones i learned here recently - Eissej Wilson-->

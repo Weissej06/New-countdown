@@ -1,0 +1,148 @@
+body 
+
+{ background-image: url(map.png);
+    
+background-repeat: repeat-x; }
+
+    
+.startButton {
+
+    width: 60px;
+
+    height: 20px;
+      
+    padding: 15px;
+     
+   font-size: 13 px;
+   
+   text-align: center;
+   
+   text-align: center;
+   
+   background-color: #e9e7e7;
+    
+   cursor: pointer;
+       
+       transition: 1.5s;
+   
+       border-radius: 10px;
+   
+       border-color: rgb(4, 255, 0);
+                     }
+   
+     .startButton:hover {
+   
+       box-shadow: 0 5px 50px 0 #55ff00da, 0 5px 50px 0 #55ff00da inset;
+                                                       }
+   
+
+
+
+.stopButton {
+    width: 60px;
+
+    height: 20px;
+      
+    padding: 15px;
+     
+   font-size: 13 px;
+   
+   text-align: center;
+   
+   text-align: center;
+   
+   background-color: #e9e7e7;
+    
+   cursor: pointer;
+       
+       transition: 1.5s;
+   
+       border-radius: 10px;
+   
+       border-color: rgb(255, 0, 0);
+                     }
+   
+     .stopButton:hover {
+   
+       box-shadow: 0 5px 50px 0 #ff0000da, 0 5px 50px 0 #ff0000da inset;
+                                                      
+           
+                                                       }
+   
+
+
+
+
+
+
+
+
+
+
+.BlastButton  {
+
+ width: 120px;
+
+ height: 20px;
+   
+ padding: 15px;
+  
+font-size: 13 px;
+
+text-align: center;
+
+
+background-color: #ffffff;
+    
+cursor: pointer;
+    
+    transition: 1.5s;
+
+    border-radius: 10px;
+
+    border-color: rgb(255, 255, 255);
+                  }
+
+  .BlastButton:hover {
+
+    box-shadow: 0 5px 50px 0 #ff0000, 0 5px 50px  #ff0000 inset;
+        
+    }
+
+    .Soundbutton{ 
+       
+        width: 120px;
+
+ height: 20px;
+   
+ padding: 15px;
+  
+font-size: 13 px;
+
+text-align: center;
+
+
+background-color: #ffffff;
+    
+cursor: pointer;
+    
+    transition: 1.5s;
+
+    border-radius: 10px;
+
+    border-color: rgb(34, 0, 255);
+                  }
+
+  .Soundbutton:hover {
+
+    box-shadow: 0 5px 50px 0 #4c00ff, 0 5px 50px  #4c00ff inset;
+                                                          
+
+    }
+
+            
+                    
+
+                              
+
+                       
